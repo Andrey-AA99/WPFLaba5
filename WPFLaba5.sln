@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFLaba5", "WPFLaba5\WPFLaba5.csproj", "{21117743-D6C8-4A81-826C-7F9CAA833F0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21117743-D6C8-4A81-826C-7F9CAA833F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21117743-D6C8-4A81-826C-7F9CAA833F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21117743-D6C8-4A81-826C-7F9CAA833F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21117743-D6C8-4A81-826C-7F9CAA833F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BE6FA95-225E-4D72-A113-BC7DCED4282A}
+	EndGlobalSection
+EndGlobal

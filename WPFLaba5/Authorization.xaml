@@ -1,0 +1,71 @@
+﻿<Window x:Class="WPFLaba5.Authorization"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+          xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:WPFLaba5"
+    
+    Height="720" Width="1080" WindowStartupLocation="CenterScreen" WindowStyle="None"
+    AllowsTransparency="True" Background="Transparent">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+    </Window.Resources>
+
+    <Border Background="#eff2f7" CornerRadius="30" MouseDown="Border_MouseDown" MouseLeftButtonDown="Border_MouseLeftButtonDown">
+
+        <!--Main Section-->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Label Content="Авторизация" Grid.Column="1" FontSize="32" FontWeight="SemiBold"
+                           HorizontalAlignment="Center" Foreground="#121518" VerticalAlignment="Center"/>
+
+            <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="1" Height="40" Margin="0 -80 0 0" HorizontalAlignment="Center">
+                <Label Content="Email" Height="35" Width="100" FontSize="18" FontWeight="SemiBold"/>
+                <TextBox x:Name="email" Height="30" Width="250" VerticalAlignment="Center" Padding="0 5 0 0"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="1" Height="40" HorizontalAlignment="Center">
+                <Label Content="Пароль" Width="100" Height="35" FontSize="18" FontWeight="SemiBold"/>
+                <PasswordBox x:Name="pass" Height="30" Width="250" VerticalAlignment="Center" Padding="0 5 0 0"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="2" Height="60" Margin="0 0 0 180" HorizontalAlignment="Center">
+                <Button Click="Login" Content="Войти" Style="{StaticResource loginButton}" Margin="25 0 10 0" ></Button>
+                <Button Click="GoToRegistration" Content="Регистрация" Style="{StaticResource regButton}" Margin="0 0 10 0" ></Button>
+            </StackPanel>
+
+
+        </Grid>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </Border>
+</Window>
